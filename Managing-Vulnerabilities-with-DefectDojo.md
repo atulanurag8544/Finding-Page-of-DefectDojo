@@ -25,12 +25,15 @@ DefectDojo, a DevSecOps platform, has a significant influence on how organizatio
 ## Name
 * The Name column gives a short description of the vulnerability. It often tells you what kind of issue it is or what part it affects.
 * This lets you grasp what the vulnerability is about helping you assess the findings fast.
+* Every vulnerability here contains the details like similar findings,import hsitory,description,Mitigation,Impact,Steps to reproduce,Reference,Notes.
 ## CWE (Common Weakness Enumeration)
 * CWE is a standard list of common software security flaws. Each vulnerability gets a CWE ID that puts it in a category of weakness.
 * Enables consistent tracking and referencing of vulnerabilities making communication and record-keeping easier.
+* Every CWE here contains details like description,Tabular details of Common Consequences(scope,impact,Likelihood) andRelationships(Nature,Type ID,Nmae),Membership(Nature,Type ID,Name),Vulnerability Mapping Notes(Usage,Reason,Rationale,Comments),Taxonomy Mapping(Mapped Taxonomy Nmae,Node ID,Fit,Mapped Node Name),Content History(Submission,Contribution,Modification).
 ## Vulnerability ID
 * A unique code given to each vulnerability in DefectDojo. This ID is used inside the system to track and handle vulnerabilities.
 * Offers a unique tag for each finding making sure vulnerabilities can be found and mentioned across the system.
+* Every vulnerability has their details like Metrics,References to Advisories, Solutions, and Tools,Weakness Enumeration,Change History.
 ## EPSS Score (Exploit Prediction Scoring System)
 * The EPSS Score shows how likely a vulnerability will be used by attackers. It comes from the EPSS model, which uses smart software and past data to guess risk.
 * Helps decide how to fix a vulnerability based on its chance of being used by attackers.
@@ -55,6 +58,7 @@ DefectDojo, a DevSecOps platform, has a significant influence on how organizatio
 ##    Status
 * The Status column tells you where things stand with the vulnerability right now such as Open, Active, Mitigated, or Verified.
 * This helps to keep tabs on how each vulnerability is being dealt with making sure issues are handled and wrapped up .
+  
 ## Group
 * Grouping is used to sort vulnerabilities into specific buckets, products, or teams within the company.
 * Improves vulnerability management by grouping findings based on key factors, which helps sharpen focus and boost accountability.
