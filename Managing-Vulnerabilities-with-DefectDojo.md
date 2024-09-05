@@ -1,7 +1,7 @@
 # Finding Page of DefectDojo
 
 ## Overview
-DefectDojo is a DevSecOps platform that has a big impact on how organizations handle their app security programs. The Findings page plays a key role in DefectDojo. It's where security experts can keep track of, look into, and take action on weak spots found during security checks. This guide gives you an overview of what the Findings page can do.The Finding page plays a key role in handling and monitoring security weak spots in your apps. It gives you a full picture of all detected issues helping you evaluate, sort, and tackle vulnerabilities .
+DefectDojo, a DevSecOps platform, has a significant influence on how organizations manage their app security programs. The Findings page is crucial in DefectDojo. Security experts use this page to monitor, investigate, and address vulnerabilities discovered during security assessments.The Finding page plays a key role in handling and monitoring security weak spots in your apps. It gives you a full picture of all detected issues helping you evaluate, sort, and tackle vulnerabilities .
 
 ##   Example of Findings:
 * OpenSSL ‘ChangeCipherSpec’ MiTM Potential Vulnerability
