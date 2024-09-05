@@ -1,7 +1,7 @@
 # Finding Page of DefectDojo
 
 ## Overview
-DefectDojo is a comprehensive DevSecOps platform designed to help organizations manage and streamline their application security programs. The Findings page is a critical component of DefectDojo, where security professionals can manage, analyze, and act upon vulnerabilities discovered during security assessments. This documentation provides an overview of the key features and functionalities of the Findings page, enabling users to efficiently navigate and utilize this essential part of the platform.
+DefectDojo is a DevSecOps platform that has a big impact on how organizations handle their app security programs. The Findings page plays a key role in DefectDojo. It's where security experts can keep track of, look into, and take action on weak spots found during security checks. This guide gives you an overview of what the Findings page can do.The Finding page plays a key role in handling and monitoring security weak spots in your apps. It gives you a full picture of all detected issues helping you evaluate, sort, and tackle vulnerabilities .
 
 ##   Example of Findings:
 * OpenSSL ‘ChangeCipherSpec’ MiTM Potential Vulnerability
@@ -17,72 +17,53 @@ DefectDojo is a comprehensive DevSecOps platform designed to help organizations 
 ![Screenshot (1980)](https://github.com/user-attachments/assets/3d39c642-f1b2-4bed-9a81-62d9840cb5e2)
 
 
-## Key Features of the Findings Page
 
-### 1. Severity
-  * The Severity column indicates the level of risk associated with each vulnerability, categorized into levels such as Low, Medium, High, and 
-         Critical.   
-  * Helps prioritize vulnerabilities based on their potential impact on the application or system.
-
-###  2. Name
-  * The Name column displays a brief description of the vulnerability, often reflecting the type of issue or the affected component.
- * Provides a quick understanding of the nature of the vulnerability, aiding in the rapid assessment of the findings.
-
-### 3. CWE (Common Weakness Enumeration)
-  * CWE is a standardized list of common software security weaknesses. Each vulnerability is assigned a CWE ID that categorizes the type of weakness.
- * Allows for standardized tracking and referencing of vulnerabilities, facilitating better communication and documentation.
-
-### 4. Vulnerability ID
-   * A unique identifier assigned to each vulnerability within DefectDojo. This ID is used internally for tracking and managing vulnerabilities.
-   * Provides a unique reference for each finding, ensuring that vulnerabilities can be easily located and referenced across the system.
-
-### 5. EPSS Score (Exploit Prediction Scoring System)
-   * The EPSS Score represents the likelihood that a vulnerability will be exploited in the wild. It is derived from the EPSS model, which uses 
-          machine learning and historical data to estimate risk.
-   * Assists in determining the urgency of addressing a vulnerability based on its potential to be exploited.
-
-### 6. EPSS Percentile
-   * The EPSS Percentile indicates the ranking of the vulnerability’s exploitability compared to other vulnerabilities. A higher percentile suggests 
-         a greater likelihood of exploitation.
-  * Provides additional context for prioritizing vulnerabilities based on their relative risk compared to other known issues.
-
-### 7. Date
-  * The Date column records when the vulnerability was first reported or discovered.
-   * Helps track the timeline of vulnerability discovery, which is essential for managing SLAs and understanding the aging of issues.
-
-### 8. Age
-   * Age indicates the number of days since the vulnerability was reported. It is calculated by subtracting the discovery date from the current date.
-  * Enables quick assessment of how long a vulnerability has remained open, helping to prioritize older issues that may require more immediate attention.
-
-### 9. SLA (Service Level Agreement)
-   * The SLA column tracks the time frame within which a vulnerability should be resolved according to predefined service level agreements.
-   * Ensures that vulnerabilities are addressed within an acceptable time frame, helping organizations meet their security obligations and minimize risk.
-
-### 10. Reporter
-   * This field indicates the user who reported or discovered the vulnerability. Typically, it includes the username or a reference to the tool 
-           that identified the issue.
-   * Helps in tracking the source of the finding, which is useful for accountability and follow-up actions.
-
-### 11. Found By
-  * The Found By column identifies the tool or method used to discover the vulnerability, such as manual testing, automated scans, or third-party 
-           integrations (e.g., Semgrep, Gitleaks).
- *  Provides context on the origin of the finding, aiding in the analysis of the tool’s effectiveness and guiding remediation efforts.
-
-### 12. Status
-  * The Status column reflects the current state of the vulnerability, such as Open, Active, Mitigated, or Verified.
-  * Helps in tracking the progress of each vulnerability's resolution, ensuring that issues are actively managed and closed in a timely manner.
-### 13. Group
- * Grouping is used to organize vulnerabilities under specific categories, products, or teams within the organization.
- * Enhances the management of vulnerabilities by allowing for the segmentation of findings based on relevant criteria, improving focus and 
-          accountability.
-
-### 14. Service
- * This field indicates the specific service or application affected by the vulnerability.
- * Provides detailed information about the impacted area, which is critical for targeted remediation efforts and risk assessment.
-
-### 15.Bulk Edit Menu 
-* When needing to update many findings with the same set of tags, the bulk edit menu can be used to ease the burden.
-* Once a finding is selected, a new button appears with the name “Bulk Edit”. Clicking this button produces a dropdown menu with many options, but the focus is just on tags for now. Update the field to have the desired tag list as follows, and click submit
+# Key Features of the Findings Page
+## Severity
+* The Severity column shows how risky each vulnerability is. It groups them into levels like Low, Medium, High, and Critical.
+* This helps teams rank vulnerabilities based on how much they could affect the application or system.
+## Name
+* The Name column gives a short description of the vulnerability. It often tells you what kind of issue it is or what part it affects.
+* This lets you grasp what the vulnerability is about helping you assess the findings fast.
+## CWE (Common Weakness Enumeration)
+* CWE is a standard list of common software security flaws. Each vulnerability gets a CWE ID that puts it in a category of weakness.
+* Enables consistent tracking and referencing of vulnerabilities making communication and record-keeping easier.
+## Vulnerability ID
+* A unique code given to each vulnerability in DefectDojo. This ID is used inside the system to track and handle vulnerabilities.
+* Offers a unique tag for each finding making sure vulnerabilities can be found and mentioned across the system.
+## EPSS Score (Exploit Prediction Scoring System)
+* The EPSS Score shows how likely a vulnerability will be used by attackers. It comes from the EPSS model, which uses smart software and past data to guess risk.
+* Helps decide how to fix a vulnerability based on its chance of being used by attackers.
+## EPSS Percentile
+* The EPSS Percentile shows how a vulnerability's exploitability ranks against others. A higher percentile means it's more likely to be exploited.
+* This gives more insight to help prioritize vulnerabilities based on their relative risk compared to other known issues.
+##  Date
+* The Date column shows when someone first reported or found the vulnerability.
+* This helps track when vulnerabilities are discovered, which is key for managing SLAs and seeing how old issues are.
+## Age
+* Age shows how many days have passed since someone reported the vulnerability. You get this by subtracting the discovery date from today's date.
+* This lets you see how long a vulnerability has been open, which helps prioritize older issues that might need faster action.
+## SLA (Service Level Agreement)
+* The SLA column keeps track of the timeframe to resolve a vulnerability based on agreed-upon service levels.
+* This column makes sure vulnerabilities get fixed enough helping companies meet their security duties and lower risks.
+## Reporter
+* This field shows who found or reported the vulnerability. It includes a username or mentions the tool that spotted the issue.
+* It helps track where the finding came from, which is useful to hold people accountable and take next steps.
+## Found By
+* The Found By column shows how the vulnerability was spotted, like through manual checks automatic scans, or tools from other companies (for example Semgrep Gitleaks).
+* This info sheds light on where the finding came from helping to assess how well the tool works and steer efforts to fix the issue.
+##    Status
+* The Status column tells you where things stand with the vulnerability right now such as Open, Active, Mitigated, or Verified.
+* This helps to keep tabs on how each vulnerability is being dealt with making sure issues are handled and wrapped up .
+## Group
+* Grouping is used to sort vulnerabilities into specific buckets, products, or teams within the company.
+* Improves vulnerability management by grouping findings based on key factors, which helps sharpen focus and boost accountability.
+## Service
+* This field points out the specific service or app affected by the vulnerability.
+* Gives in-depth details about the impacted area, which is key to target fixes and gauge risks.
+## Bulk Edit Menu
+* When you need to update lots of findings with the same set of tags, you can use the bulk edit menu to make it easier.
+* After you pick a finding, a new button shows up called "Bulk Edit". When you click this button, you'll see a dropdown menu with many choices, but we're just looking at tags right now. Change the field to have the tag list you want then click submit.
 
 ![Screenshot (1979)](https://github.com/user-attachments/assets/c83b086c-478b-452a-9c4c-200ae5d2b3ae)
 
@@ -95,33 +76,29 @@ Later still, you import Test 3 which also contains that vulnerability.  This wil
 ![Screenshot (1983)](https://github.com/user-attachments/assets/8f07673f-2ad3-4124-8959-be67e0ee6fdc)
 
 
-
 # User Instructions
-## Navigating the Findings Page
-## Login Procedure:
-* Visit the DefectDojo demo server using the following URL: [DefectDojo dashboard](https://demo.defectdojo.org/dashboard).
-* Enter the username: admin.
-* Enter the password: 1Defectdojo@demo#appsec.
-* Click on Login to access the platform.
-
-## Accessing the Findings Page:
-* Once logged in, navigate to the main dashboard.
-* Click on the "Findings" tab in the navigation menu to open the Findings Page.
-
-## Using Filters and Sorting:
-* Use the filter panel on the left to apply desired filters.
-* Click on column headers to sort findings based on different attributes.
-* Tags can be filtered in many ways through both the UI and the API. 
+## How to Use the Findings Page
+### How to Log In:
+* Go to the DefectDojo demo server: [DefectDojo dashboard](https://demo.defectdojo.org/dashboard).
+* Type in the username: admin.
+* Type in the password: 1Defectdojo@demo#appsec.
+* Hit Login to enter the platform.
+### To access the Findings Page:
+* After logging in, go to the main dashboard.
+* Click the "Findings" tab in the menu to open the Findings Page.
+### To use Filters and Sorting:
+* Use the filter panel on the left to apply filters you want.
+* Click on column headers to sort findings by different attributes.
+* You can filter tags in many ways through both the UI and the API.
 
 ![Screenshot (1981)](https://github.com/user-attachments/assets/aae24584-2a35-4693-9fe9-2def77d54aef)
+  
+### Taking Action:
+* Pick a finding to see detailed information.
+* Use the action buttons to sort out, fix, or link findings with other tools.
+### Add Findings
+Any security weak spots not included in the previous import will be added to the Test as new Findings.
 
-
-## Performing Actions:
-* Select a finding to view detailed information.
-* Use the action buttons to triage, resolve, or integrate findings with other tools.
-
-## Create Findings
-Any vulnerabilities which were not contained in the previous import will be added to the Test automatically as new Findings.
 
 
 
