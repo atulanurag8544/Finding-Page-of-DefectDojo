@@ -25,7 +25,7 @@ DefectDojo, a DevSecOps platform, has a significant influence on how organizatio
 ## Name
 * The Name column gives a short description of the vulnerability. It often tells you what kind of issue it is or what part it affects.
 * This lets you grasp what the vulnerability is about helping you assess the findings fast.
-* Every vulnerability here contains the details like similar findings,import hsitory,description,Mitigation,Impact,Steps to reproduce,Reference,Notes.
+* Every vulnerability here contains the details like similar findings,import history,description,Mitigation,Impact,Steps to reproduce,Reference,Notes.
 ## CWE (Common Weakness Enumeration)
 * CWE is a standard list of common software security flaws. Each vulnerability gets a CWE ID that puts it in a category of weakness.
 * Enables consistent tracking and referencing of vulnerabilities making communication and record-keeping easier.
