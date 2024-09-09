@@ -29,7 +29,7 @@ DefectDojo, a DevSecOps platform, has a significant influence on how organizatio
 ## CWE (Common Weakness Enumeration)
 * CWE is a standard list of common software security flaws. Each vulnerability gets a CWE ID that puts it in a category of weakness.
 * Enables consistent tracking and referencing of vulnerabilities making communication and record-keeping easier.
-* Every CWE here contains details like description,Tabular details of Common Consequences(scope,impact,Likelihood) andRelationships(Nature,Type ID,Nmae),Membership(Nature,Type ID,Name),Vulnerability Mapping Notes(Usage,Reason,Rationale,Comments),Taxonomy Mapping(Mapped Taxonomy Nmae,Node ID,Fit,Mapped Node Name),Content History(Submission,Contribution,Modification).
+* Every CWE here contains details like description,Tabular details of Common Consequences(scope,impact,Likelihood) andRelationships(Nature,Type ID,Name),Membership(Nature,Type ID,Name),Vulnerability Mapping Notes(Usage,Reason,Rationale,Comments),Taxonomy Mapping(Mapped Taxonomy Nmae,Node ID,Fit,Mapped Node Name),Content History(Submission,Contribution,Modification).
 ## Vulnerability ID
 * A unique code given to each vulnerability in DefectDojo. This ID is used inside the system to track and handle vulnerabilities.
 * Offers a unique tag for each finding making sure vulnerabilities can be found and mentioned across the system.
